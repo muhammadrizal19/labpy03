@@ -40,3 +40,55 @@ Dari output yang terlihat, ketika dijalankan:
 * Program berakhir dengan mencetak "Selesai"
 
 Program ini pada dasarnya membangkitkan N buah angka random antara 0-1, namun hanya mencetak angka-angka yang nilainya kurang dari 0.5.
+
+latihan 2
+
+Penjelasan Alur algoritma pada program diatas:
+
+1. Inisialisasi awal:
+
+* modal_awal = 10000000
+
+*laba_bulanan = [] (list kosong untuk menyimpan laba per bulan)
+
+* total_laba = 0
+
+2. Perulangan untuk bulan 1-8:
+
+* Menggunakan for loop for bulan in range(1, 9)
+
+* Perhitungan laba berdasarkan kondisi:
+
+      Bulan 1-2: laba = 0 (belum ada laba)
+
+      Bulan 3-4: laba = 1% dari modal awal (0.01 × modal_awal)
+
+      Bulan 5-7: laba = 5% dari modal awal (0.05 × modal_awal)
+
+      Bulan 8: laba = 2% dari modal awal (0.02 × modal_awal)
+
+Setiap laba bulanan ditambahkan ke list laba_bulanan
+
+* Total laba diakumulasi
+
+3. Menampilkan hasil:
+
+* Menggunakan enumerate untuk menampilkan laba per bulan
+
+* Format output: "laba bulan ke-[nomor_bulan] sebesar: [jumlah_laba]"
+
+* Di akhir menampilkan total laba keseluruhan
+
+Dari output yang terlihat:
+
+     Bulan 1-2: Rp 0
+
+     Bulan 3-4: Rp 1.000.000
+
+     Bulan 5-7: Rp 5.000.000
+
+     Bulan 8: Rp 2.000.000
+
+Total laba: Rp 19.000.000
+
+Program ini mensimulasikan perhitungan laba bulanan dari sebuah investasi dengan persentase keuntungan yang berbeda-beda tiap periodenya.
