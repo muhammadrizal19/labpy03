@@ -95,7 +95,8 @@ Total laba: Rp 19.000.000
 Program ini mensimulasikan perhitungan laba bulanan dari sebuah investasi dengan persentase keuntungan yang berbeda-beda tiap periodenya.
 
 latihan 3
-
+![Screenshot_20241111_111941_Chrome](https://github.com/user-attachments/assets/4e86c3c2-2382-4c83-b0cb-3c62e8c11bd7)
+![Screenshot_20241111_112123_Chrome](https://github.com/user-attachments/assets/064b72db-17ed-4b66-a11e-c8ed20739a93)
 alur algoritma dari kode tersebut:
 
 1. Inisialisasi:
