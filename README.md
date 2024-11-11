@@ -1,5 +1,7 @@
 # Muhammad Rizal Hardiansyah (312410257)
-
+latihan 1
+![Screenshot_20241111_105928_Chrome](https://github.com/user-attachments/assets/43fe4bbc-9a81-4319-b783-8a029ca01329)
+![Screenshot_20241111_105938_Chrome](https://github.com/user-attachments/assets/81ede701-8047-4e60-a2a6-1fee5b0d6869)
 Penjelasan Alur algoritma pada program diatas:
 
 1. Program dimulai dengan mengimpor fungsi random dari modul random Python
