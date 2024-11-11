@@ -42,7 +42,8 @@ Dari output yang terlihat, ketika dijalankan:
 Program ini pada dasarnya membangkitkan N buah angka random antara 0-1, namun hanya mencetak angka-angka yang nilainya kurang dari 0.5.
 
 latihan 2
-
+![Screenshot_20241111_110016_Chrome](https://github.com/user-attachments/assets/786e9bb1-7ebf-4ca4-8fb6-4647bb90f8a6)
+![Screenshot_20241111_110028_Chrome](https://github.com/user-attachments/assets/011306d1-3655-4e49-ac15-6dee3e66e779)
 Penjelasan Alur algoritma pada program diatas:
 
 1. Inisialisasi awal:
@@ -92,3 +93,50 @@ Dari output yang terlihat:
 Total laba: Rp 19.000.000
 
 Program ini mensimulasikan perhitungan laba bulanan dari sebuah investasi dengan persentase keuntungan yang berbeda-beda tiap periodenya.
+
+latihan 3
+
+alur algoritma dari kode tersebut:
+
+1. Inisialisasi:
+
+* Program dimulai dengan mendefinisikan fungsi bernama atm_simulator().
+
+* Fungsi ini akan menjalankan program ATM secara berulang.
+
+* Variabel saldo diinisialisasi (tidak ditampilkan dalam kode ini) sebagai saldo awal pengguna.
+
+2. Loop Utama:
+
+Fungsi atm_simulator() menggunakan loop while True: untuk terus menampilkan menu ATM selama pengguna tidak memilih untuk keluar.
+
+3. Menampilkan Menu:
+
+Di dalam loop, program menampilkan menu ATM yang berisi pilihan untuk "Tarik Uang" dan "Keluar".
+
+4. Meminta Input:
+
+Program meminta input dari pengguna untuk memilih menu dengan menggunakan input("Pilih menu (1/2): ").
+
+5. Memeriksa Pilihan:
+
+* Program memeriksa pilihan pengguna menggunakan if dan elif statement:
+
+  *Jika pilihan 1 (Tarik Uang):
+
+  *Program meminta input jumlah penarikan dari pengguna menggunakan int(input("Masukkan jumlah penarikan: ")).
+
+  *Program memeriksa apakah jumlah penarikan valid:
+
+     *Jika jumlah penarikan lebih besar dari saldo: Program menampilkan pesan "Maaf, saldo tidak mencukupi!".
+
+      Jika jumlah penarikan kurang dari atau sama dengan 0: Program menampilkan pesan "Jumlah penarikan tidak valid!".
+
+      Jika jumlah penarikan valid: Program mengurangi saldo dengan jumlah penarikan dan menampilkan pesan "Penarikan berhasil!".
+
+      Jika pilihan 2 (Keluar): Program menampilkan pesan "Terima kasih telah menggunakan ATM!" dan keluar dari loop menggunakan break.
+
+      Jika pilihan tidak valid: Program menampilkan pesan "Pilihan tidak valid!".
+6. Mengulang Loop:
+
+Setelah proses pilihan selesai, program kembali ke awal loop untuk menampilkan menu ATM kembali.
